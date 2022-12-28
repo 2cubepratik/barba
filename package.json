@@ -1,12 +1,11 @@
 {
   "homepage":"https://2cubepratik.github.io/barba",
-  "main": "dist/index.html",
   "name": "barba-js",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run dist",
+    "deploy": "gh-pages -d dist",
     "start": "parcel src/index.pug",
     "build": "parcel build src/index.pug"
   },
