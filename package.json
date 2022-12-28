@@ -1,5 +1,6 @@
 {
   "homepage":"https://2cubepratik.github.io/barba",
+  "main": "dist/index.html",
   "name": "barba-js",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
