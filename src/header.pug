@@ -1,5 +1,5 @@
 header 
     ul 
-      each val, key in {'/': 'Home', 'about.pug': 'About Us', 'contact.pug': 'Contact Us'}
+      each val, key in {'./': 'Home', './about.pug': 'About Us', './contact.pug': 'Contact Us'}
         li 
             a(href=key) #{val}
