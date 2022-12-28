@@ -1,7 +1,7 @@
 {
   "homepage":"https://2cubepratik.github.io/barba",
   "name": "barba-js",
-  "source": "src/index.html",
+  "source": "build/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "predeploy": "npm run build",
