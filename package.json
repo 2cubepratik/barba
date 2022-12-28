@@ -4,10 +4,10 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "predeploy": "npm run dist",
-    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel src/index.pug",
-    "build": "parcel build src/index.pug"
+    "build": "parcel build --dist-dir=build src/index.pug"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.8.2",
