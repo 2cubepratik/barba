@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "parcel src/index.pug",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.pug"
   },
   "devDependencies": {
     "@parcel/transformer-pug": "^2.8.2",
