@@ -1,5 +1,9 @@
 header 
-    ul 
+    .logo 
+      a(href="#") Logo
+    ul.links-wrap
       each val, key in {'./': 'Home', './about.pug': 'About Us', './contact.pug': 'Contact Us'}
-        li 
-            a(href=key) #{val}
+        li.btn.btn-link
+            a.btn-click.magnetic(data-strength="20" data-strength-text="10")(href=key) 
+              span.btn-text 
+                span.btn-text-inner #{val}

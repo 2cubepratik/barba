@@ -1,5 +1,5 @@
 {
-  "homepage":"https://2cubepratik.github.io/barba",
+  "homepage": "https://2cubepratik.github.io/barba",
   "name": "barba-js",
   "source": "build/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
@@ -17,6 +17,8 @@
   "dependencies": {
     "@barba/core": "^2.9.7",
     "@barba/css": "^2.1.15",
+    "gsap": "^3.11.4",
+    "jquery": "^3.6.3",
     "pug": "^3.0.2"
   }
 }
